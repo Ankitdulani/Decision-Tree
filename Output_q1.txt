@@ -1,0 +1,70 @@
+DECISION TREE (using skilearn library) QUESTION 1
+
+SUBMITTED BY: AnkitDulani
+
+###########################
+
+
+Results Using entropy Index:
+
+Accuracy for validation Set:62.5
+Accuracy for Test Set:62.5
+#########################
+
+DECISION TREE (using Binary Search Tree DataStructure) QUESTION 2
+
+SUBMITTED BY: AnkitDulani
+
+
+#########################
+
+Accuracy on Validation Set without Pruning :74.3
+Accuracy on Test Set without Pruning       :75.133
+
+After Pruning 
+.............................
+for L=10 and K=10
+
+Accuracy on Validation Set :76.55
+Accuracy on Test Set       :76.88
+
+..............................
+for L=15 and K=10
+
+Accuracy on Validation Set :78.1
+Accuracy on Test Set       :77.95
+
+..............................
+for L=15 and K=15
+
+Accuracy on Validation Set :77.9
+Accuracy on Test Set       :77.0
+
+.............................
+for L=20 and K=15
+
+Accuracy on Validation Set :78.6499
+Accuracy on Test Set       :78.75
+
+..............................
+for L=20 and K=20
+
+Accuracy on Validation Set :78.600
+Accuracy on Test Set       :79.149
+
+..............................
+for L=30 and K=30
+
+Accuracy on Validation Set :78.6
+Accuracy on Test Set       :78.8
+
+..............................
+for L=40 and K=30
+
+Accuracy on Validation Set :78.25
+Accuracy on Test Set       :77.75
+
+#######################################
+
+
+Conclusion: For the dataset given the tree can be prunned and therefore can be optimized for value of L and K = 20
